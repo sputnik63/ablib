@@ -1015,7 +1015,7 @@ class PWM():
 
 	def pwm_polarity(self, value):
 		if os.path.exists(self.iopath): 
-			f = open(self.iopath + '/duty_cycle','w')
+			f = open(self.iopath + '/polarity','w')
 			f.write(value)
 			f.close()
 
