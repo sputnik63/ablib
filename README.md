@@ -19,5 +19,7 @@ A Python library for controlling the pins and daisy modules on:
 ##Code examples
 
 * [Acme Systems playground](http://www.acmesystems.it/playground) 
+* [examples/fading_single.py](https://github.com/sputnik63/ablib/blob/master/examples/fading_single.py):  one PWM channel fades a connected led
+* [examples/fading_all.py](https://github.com/sputnik63/ablib/blob/master/examples/fading_all.py):  all available PWM channels fade connected leds
 
 
