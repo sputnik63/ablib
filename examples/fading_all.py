@@ -46,6 +46,3 @@ while True:
         for val in range(PERIOD, 0-step, -step):
             Leds[i].pwm_pulse(val)
             time.sleep(delay)
-        
-
-signal.pause()
